@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+int a=50,b=40;
+printf("Before swapping the numbers are :%d,%d\n",a,b);
+a=a+b; //a=90
+b=a-b; //b=10
+a=a-b;//a=40
+printf("After swapping the numbers are :%d,%d",a,b);
+return 0;
+}
